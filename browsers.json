@@ -7,7 +7,10 @@
     ],
     "versions": {
       "106.0": {
-        "image": "selenoid/chrome:106.0",
+        "image": "selenoid/chrome:106.0"
+      },
+      "99.0": {
+        "image": "selenoid/chrome:99.0",
         "spec": {
           "resources": {
             "requests": {
@@ -20,9 +23,6 @@
             }
           }
         }
-      },
-      "99.0": {
-        "image": "selenoid/chrome:99.0"
       }
     }
   }
