@@ -21,7 +21,7 @@ spec:
       namespace: selenosis
     spec:
       containers:
-      - args: ["/selenosis", "--browsers-config", "./config/browsers.json", "--namespace", "selenosis", "--service-name", "seleniferous", "--browser-limit", "60", "--proxy-image", "alcounit/seleniferous:v1.0.2", --session-idle-timeout, "30s"]
+      - args: ["/selenosis", "--browsers-config", "./config/browsers.json", "--namespace", "selenosis", "--service-name", "seleniferous", "--browser-limit", "60", "--proxy-image", "alcounit/seleniferous:v1.0.2", "--session-idle-timeout", "30s"]
         image: alcounit/selenosis:v1.0.5
         name: selenosis
         resources:
